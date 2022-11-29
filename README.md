@@ -12,9 +12,14 @@ A continuacion se enumeran los componentes usados y la funcion que cumplen en es
 
     1. Protoboard
   
+![image](https://user-images.githubusercontent.com/116781677/204545384-8e304983-0f61-4d97-8c83-fbed5f36dc7b.png)
+
 Una placa de pruebas o placa de inserción es un tablero con orificios que se encuentran conectados eléctricamente entre sí de manera interna, habitualmente siguiendo patrones de líneas. En este caso, este elemento sera el fundamental ya que es donde se arma todo el circuito 
   
     2. Transistor
+    
+    
+    
 El transistor es un dispositivo electrónico semiconductor utilizado para entregar una señal de salida en respuesta a una señal de entrada.
 En este caso, la señal de entrada sera dada por el foto resistor que se mencionara mas adelante, mediante la señal de entrada se producira la señal de salida la cual activara los leds conectados en serie a uno de sus canales.
 
