@@ -1,6 +1,6 @@
 # Informe Proyecto 1
 
-# 1. Objetivos
+# 1. Objetivo
 
 Identicar como funciona un circuito conectado con diferentes compotenentes que interactuan entre si al armar un circuito con caracteristicas especificas que realiza un funcion requerida y mediante la ingenieria inversa entender de mejor manera su funcionamiento 
 
@@ -11,6 +11,7 @@ El circuito armado tiene como finalidad mediante la deteccion de cantidad de luz
 A continuacion se enumeran los componentes usados y la funcion que cumplen en este proyecto.
 
     1. Protoboard
+    
   
 ![image](https://user-images.githubusercontent.com/116781677/204545384-8e304983-0f61-4d97-8c83-fbed5f36dc7b.png)
 
@@ -19,24 +20,41 @@ Una placa de pruebas o placa de inserción es un tablero con orificios que se en
     2. Transistor
     
     
+![image](https://user-images.githubusercontent.com/116781677/205956181-611d737e-e5e3-4b54-9f64-e0be26274f4d.png)
     
 El transistor es un dispositivo electrónico semiconductor utilizado para entregar una señal de salida en respuesta a una señal de entrada.
 En este caso, la señal de entrada sera dada por el foto resistor que se mencionara mas adelante, mediante la señal de entrada se producira la señal de salida la cual activara los leds conectados en serie a uno de sus canales.
 
     3. Resistencias
+    
+    
+ ![image](https://user-images.githubusercontent.com/116781677/205955891-c26a9274-d60d-4a2d-a0de-a6e2ea2bdd0b.png)
+
 La resistencia es una medida de la oposición al flujo de corriente en un circuito eléctrico. La resistencia se mide en ohmios, que se simbolizan con la letra griega omega (Ω). En este caso las resistencias utilizadas se opondran al flujo del corriente suministrada por la fuente de voltaje haciendo que primero los leds no se fundan/quemen/dañen.
    
     4. Potenciometro
+    
+    
+![image](https://user-images.githubusercontent.com/116781677/205955813-cfb0c224-a73f-411a-9d89-46b4e4d5475e.png)
+
 Es uno de los dos usos que posee la resistencia o resistor variable mecánica. El usuario al manipularlo, obtiene entre el terminal central y uno de los extremos una fracción de la diferencia de potencial total, se comporta como un divisor de tensión o divisor de voltaje. En el circuito armado este se comportara coo una gran resistencia que se impida al paso de corriente pero que podamos midificar cuanta corriente querramos que pase, lo que repercute directamenten en la intensidad de los leds, es decir en su luminosidad.
    
     5. Leds
+    
+![image](https://user-images.githubusercontent.com/116781677/205955707-3df254ae-1b32-444e-ae88-de2d52f024d4.png)
+
 Un diodo emisor de luz o led es una fuente de luz constituida por un material semiconductor dotado de dos terminales. Se trata de un diodo de unión p-n, que emite luz cuando está activado. En este caso el led tendra el papel de señal de alerta o de funcionamiento ya que dependiendo se si se enciende o no, sabremos si el circuito funciona correctamente.
    
     6. Foto resistor
     
+![image](https://user-images.githubusercontent.com/116781677/205955989-3c152288-63ee-47b7-bee1-486176826fc1.png)
+
 Es un componente electrónico cuya resistencia se modifica, con el aumento de intensidad de luz incidente. Puede también ser llamado fotoconductor, célula fotoeléctrica o resistor dependiente de la luz, cuyas siglas, LDR, se originan de su nombre en inglés light-dependent resistor. En el caso del circuito este componente sera el encargado de enviar la señal del nivel de luz que existe en el entorno.
      
     7. Pila
+    
+![image](https://user-images.githubusercontent.com/116781677/205956098-5e463061-84ea-4825-a2c5-50d2eb384b6a.png)
+
 Una pila eléctrica es el formato industrializado y comercial de la celda galvánica o voltaica. Es un dispositivo que convierte energía química en energía eléctrica por un proceso químico transitorio. Usamos una pila de 9v siendo la fuente de poder de todo el circuito.
 
 # 3. Explicacion del Procedimiento
